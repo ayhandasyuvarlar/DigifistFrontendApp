@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "ITC Avant Garde Std Md";
+  src: url("../font/ITCAvantGardeStd-Md.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../font/Metropolis-Light.woff2") format("woff2"),
+    url("../font/Metropolis-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../font/Metropolis-Bold.woff2") format("woff2"),
+    url("../font/Metropolis-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Md";
+  src: url("../font/ITCAvantGardeStd-BoldObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Cn";
+  src: url("../font/ITCAvantGardeStd-BoldCn.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BoldCn.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Md";
+  src: url("../font/ITCAvantGardeStd-MdObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-MdObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk";
+  src: url("../font/ITCAvantGardeStd-BkObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BkObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Cn";
+  src: url("../font/ITCAvantGardeStd-BoldCnObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BoldCnObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Cn";
+  src: url("../font/ITCAvantGardeStd-MdCn.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-MdCn.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Cn";
+  src: url("../font/ITCAvantGardeStd-MdCnObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-MdCnObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk Cn";
+  src: url("../font/ITCAvantGardeStd-DemiCn.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-DemiCn.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk Cn";
+  src: url("../font/ITCAvantGardeStd-DemiCnObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-DemiCnObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk";
+  src: url("../font/ITCAvantGardeStd-Demi.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-Demi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Md";
+  src: url("../font/ITCAvantGardeStd-Bold.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk";
+  src: url("../font/ITCAvantGardeStd-DemiObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-DemiObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk Cn";
+  src: url("../font/ITCAvantGardeStd-BkCnObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BkCnObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std XLt";
+  src: url("../font/ITCAvantGardeStd-XLtObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-XLtObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std XLt";
+  src: url("../font/ITCAvantGardeStd-XLt.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-XLt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std XLt Cn";
+  src: url("../font/ITCAvantGardeStd-XLtCnObl.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-XLtCnObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk";
+  src: url("../font/ITCAvantGardeStd-Bk.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-Bk.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std Bk Cn";
+  src: url("../font/ITCAvantGardeStd-BkCn.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-BkCn.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Std XLt Cn";
+  src: url("../font/ITCAvantGardeStd-XLtCn.woff2") format("woff2"),
+    url("../font/ITCAvantGardeStd-XLtCn.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "ITC Avant Garde Std Md";
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  font-family: "Metropolis";
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 70px 0 70px 70px;
+}
+.right h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #000;
+  padding-right: 120px;
+}
+.right p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #666666;
+  padding-right: 120px;
+  margin-bottom: 32px;
+}
+.right > .button {
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+  position: relative;
+}
+.right > .button::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+.right .product-card {
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+}
+.right .product-card .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 230px;
+  margin-top: auto;
+}
+.right .product-card .swiper-wrapper .swiper-slide .content {
+  width: 100%;
+}
+.right .product-card .swiper-wrapper .swiper-slide .content img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+.right .product-card .swiper-wrapper .swiper-slide .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 57px;
+  font-weight: 300;
+  color: #000;
+  margin-top: 14px;
+}
+.right .product-card .swiper-wrapper .swiper-slide .bottom .price {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  margin-top: auto;
+}
+.right .product-card .swiper-wrapper .swiper-slide .bottom .price div {
+  width: 12px;
+  max-width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.right
+  .product-card
+  .swiper-wrapper
+  .swiper-slide
+  .bottom
+  .price
+  div:nth-child(1) {
+  border: 2px solid #fff;
+  outline: 1px solid #000;
+  margin-left: auto;
+  background: #99c3cc;
+}
+.right
+  .product-card
+  .swiper-wrapper
+  .swiper-slide
+  .bottom
+  .price
+  div:nth-child(2) {
+  background: #cc9999;
+}
+.right
+  .product-card
+  .swiper-wrapper
+  .swiper-slide
+  .bottom
+  .price
+  div:nth-child(3) {
+  background: #cb99cc;
+}
+.right
+  .product-card
+  .swiper-wrapper
+  .swiper-slide
+  .bottom
+  .price
+  div:last-child {
+  background: #a6cc99;
+  margin: 0;
+}
+.right .product-card .button-p {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 40%;
+  right: 50px;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .right {
+    padding: 100px 0 100px 60px;
+  }
+  h2,
+  p {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 861px) {
+  .right {
+    padding: 100px 0 100px 40px;
+  }
+  .right h2 {
+    padding-right: 40px;
+  }
+  .right p {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 765px) {
+  .right {
+    padding: 80px 0 80px 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+  }
+  body .left,
+  body .right {
+    height: 100%;
+    width: 100%;
+  }
+  body .left {
+    position: relative;
+  }
+  body .left::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  body .right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 62%;
+    padding: 24px 0 40px 24px;
+  }
+}
+@media (max-width: 600px) and (max-width: 414px) {
+  body .right {
+    height: 67%;
+  }
+}
+@media (max-width: 600px) and (max-width: 393px) {
+  body .right {
+    height: 70%;
+  }
+}
+@media (max-width: 600px) and (max-width: 375px) {
+  body .right {
+    height: 88%;
+  }
+}
+
+@media (max-width: 600px) {
+  body .right h2 {
+    color: #fff;
+    font-size: 26px;
+    padding-right: 24px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 22px;
+  }
+  body .right p {
+    display: none;
+  }
+  body .right > .button {
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  body .right > .button::after {
+    background: #fff;
+    box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  body .right::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    left: 0;
+  }
+}
