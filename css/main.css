@@ -412,6 +412,9 @@ body {
     height: 85%;
     padding: 10px 0 10px 24px;
   }
+  .swiper {
+    margin-top: 40px;
+  }
   .content{
     height: 70%; 
     margin-top: 50px;
