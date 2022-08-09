@@ -409,11 +409,12 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 75%;
-    padding: 24px 0 40px 24px;
+    height: 85%;
+    padding: 24px 0 20px 24px;
   }
   .content{
-    height: 70%;
+    height: 90%;
+    margin-top: 0px;
   }
 }
 @media (max-width: 600px) and (max-width: 414px) {
