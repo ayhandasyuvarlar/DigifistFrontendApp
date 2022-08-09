@@ -415,6 +415,9 @@ body {
   .swiper {
     margin-top: 100px;
   }
+  .swiper-slide {
+    margin-top:update40px;
+  }
   .content{
     height: 100%; 
   }
