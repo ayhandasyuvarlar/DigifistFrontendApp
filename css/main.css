@@ -416,8 +416,7 @@ body {
     margin-top: 40px;
   }
   .content{
-    height: 70%; 
-    margin-top: 50px;
+    height: 100%; 
   }
   .content img {
     width: 100% !important;
