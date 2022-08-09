@@ -413,8 +413,11 @@ body {
     padding: 10px 0 10px 24px;
   }
   .content{
-    height: 100%;
-    margin-top: 70px;
+    height: 70%; 
+    margin-top: 50px;
+  }
+  .content img {
+    width: 100% !important;
   }
 }
 @media (max-width: 600px) and (max-width: 414px) {
